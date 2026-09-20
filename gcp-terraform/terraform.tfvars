@@ -10,7 +10,7 @@
 # =============================================================================
 
 # GCP project this deployment lives in.
-project_id = "project-d31a3358-346c-40e8-bda"
+project_id = "gcp-aug8"
 
 project     = "cloudkitchen"
 environment = "dev"
