@@ -86,7 +86,7 @@ export default function Restaurants() {
             transition={{ delay: 0.08 }}
             className="mt-2 max-w-xl text-gray-700"
           >
-            Discover the best kitchens near you. Search a dish or a restaurant.
+            Discover the best kitchens near you. Search a dish or a restaurant. You will get great offer from INDIA.
           </motion.p>
 
           <motion.form
@@ -147,7 +147,7 @@ export default function Restaurants() {
                   <MenuItemCard key={item.id ?? item._id ?? i} item={item} index={i} onAdd={() => {}} />
                 ))}
               </div>
-              <p className="mt-4 text-sm text-gray-400">Open a restaurant to add dishes to your cart.</p>
+              <p className="mt-4 text-sm text-gray-400">Open a restaurant to add dishes to your cart and get the great discount.</p>
             </div>
           )
         ) : loading ? (
